@@ -1,0 +1,21 @@
+import 'dart:io';
+void main(){
+  
+  print("Enter number of row");
+  int row=int.parse(stdin.readLineSync()!);
+
+  for(int i=1;i<=row;i++){
+    if(i%2==1){
+    
+    for(int j=1;j<=row;j++){
+      stdout.write("$j"+" ");
+    }
+    }
+    else{
+      for(int j=row;j>=1;j--){
+        stdout.write("$j"+" ");
+      }
+    }
+   print(" ");
+  }
+}
