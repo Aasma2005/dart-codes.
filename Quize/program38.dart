@@ -1,0 +1,5 @@
+void main(){
+  for(int i=10;i>0;i-=2){
+    print(2*i+2);
+  }
+}
